@@ -1,0 +1,76 @@
+<!-- An HTML document must start with a declaration that specifies the document type: <!DOCTYPE html>.
+
+The HTML document itself always begins with <html> and ends with </html>.
+The visible part of the HTML document is between <body> and </body>. 
+
+The area outside of that is used to reference Javascript files, CSS, or other features. -->
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+	<!-- START THE PAGE CONTENT  -->
+{% extends "layout.html" %}
+{% block content %}
+<h1> Angel Chen </h1>
+<p> Many Thanks to my mentor, Ben Erickson, UW Advancement. </p>
+
+<!-- Practice from Codacademy  -->
+
+  <div class="home">
+    <h1>Flask Framework</h1>
+    <p>This website was built with Python via the Flask framework.</p>
+  </div>
+
+
+  <div id="introduction">
+    <h2>About ME</h2>
+    <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br /><br /> There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+    <h3>Species</h3>
+    <ul>
+      <li>Arctos</li>
+      <li>Collarus</li>
+      <li>Horribilis</li>
+      <li>Nelsoni (extinct)</li>
+    </ul>
+    <h3>Features</h3>
+    <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
+  </div>
+  <div id="habitat">
+    <h2>Habitat</h2>
+    <h3>Countries with Large Brown Bear Populations</h3>
+    <ol>
+      <li>Russia</li>
+      <li>United States</li>
+      <li>Canada</li>
+    </ol>
+    <h3>Countries with Small Brown Bear Populations</h3>
+    <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
+  </div>
+  <div id="media" style="text-align:center">
+    <h2> Media </h2>
+    <div>
+    	<iframe width="560" height="315" src="https://www.youtube.com/embed/sg_WE0ToJjM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>	
+    </div>
+	
+	</iframe>
+	<h3> My Fav Song </h3>
+   
+   	
+
+  <!-- Original method from Codacademy 
+ 	<img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" alt="A Brown Bear"/>
+ 	
+ 	<video src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4 " width="320" height="240" controls>
+ 	Video not supported
+ 	</video>
+ 	TO TROUBLE SHOOT
+ 	<iframe src=" http://docs.google.com/gview?url=http://example.com/mypdf.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0" ></iframe> 
+  -->
+
+  </div>
+{% endblock %}
+
+</body>
+</html>
